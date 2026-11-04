@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-MZ">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Patrício Rebelo Baltazar | Empreendedor, Gestor de Projectos e Programador Web em Maputo</title>
+<meta name="description" content="Portfólio de Patrício Rebelo Baltazar: empreendedor, gestor de projectos, programador web e profissional de tecnologias de informação em Maputo, Moçambique.">
+<meta property="og:title" content="Patrício Rebelo Baltazar | Portfólio">
+<meta property="og:description" content="Transformando ideias em soluções e oportunidades.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/foto.jpg">
+<meta name="theme-color" content="#0b1f3a">
+<link rel="icon" type="image/jpeg" href="assets/foto-perfil.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;700&display=swap">
+<style>
+:root{--navy:#0b1f3a;--navy2:#13335c;--gold:#c9a24b;--bg:#fff;--soft:#f3f4f6;--card:#fff;--text:#1d2736;--mute:#5d6878;--line:#e0e3e8;--r:16px}
+:root[data-theme=dark]{--bg:#0a1626;--soft:#0e1e33;--card:#12263f;--text:#e8ecf2;--mute:#9aa7b8;--line:#223a58}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;font:400 1rem/1.7 Manrope,system-ui,sans-serif;background:var(--bg);color:var(--text)}
+h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;line-height:1.1;margin:0 0 .6em}
+h1{font-size:clamp(2.6rem,6vw,4.6rem);font-weight:700}h2{font-size:clamp(2rem,4vw,2.8rem)}h3{font-size:1.45rem}
+a{color:inherit}.wrap{width:min(1120px,92%);margin:auto}section{padding:88px 0}.alt{background:var(--soft)}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:var(--gold);color:#000;padding:8px;z-index:99}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.nav{position:fixed;inset:0 0 auto;z-index:50;display:flex;align-items:center;gap:8px;padding:12px 4%;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.logo img{display:block;width:40px;height:40px;border-radius:50%;object-fit:cover;border:2px solid var(--gold)}.logo{font:700 1.5rem "Cormorant Garamond",serif;text-decoration:none;margin-right:auto}
+#menu{display:flex;gap:20px;font-size:.9rem}#menu a{text-decoration:none;color:var(--mute)}#menu a:hover,#menu a.on{color:var(--gold)}
+.icon-btn{background:none;border:1px solid var(--line);color:var(--text);border-radius:10px;width:40px;height:40px;cursor:pointer;font-size:1.1rem}.burger{display:none}
+.hero{padding-top:130px;background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff}
+.hero-grid{display:grid;grid-template-columns:1.3fr .8fr;gap:48px;align-items:center}
+.kicker{color:var(--gold);font-weight:700;margin:0 0 12px}.lead{font-size:1.15rem;max-width:56ch;color:#d5deea}
+.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-block;background:var(--gold);color:#101820;font-weight:700;border:2px solid var(--gold);padding:12px 24px;border-radius:999px;text-decoration:none;cursor:pointer;font-family:inherit;font-size:1rem;transition:transform .2s}
+.btn:hover{transform:translateY(-2px)}.btn.ghost{background:none;color:inherit}.hero .btn.ghost{color:#fff;border-color:#fff}
+.photo{margin:0;position:relative;aspect-ratio:4/5;border-radius:var(--r);overflow:hidden;border:2px solid var(--gold);background:var(--navy2);display:grid;place-items:center}
+.photo span{font:700 6rem "Cormorant Garamond",serif;color:var(--gold)}.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:64px;padding-bottom:56px}
+.stats div{border-top:2px solid var(--gold);padding-top:12px}.stats b{font:700 2.6rem "Cormorant Garamond",serif;display:block}.stats span{font-size:.9rem;color:#c3cfdf}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.pillars,.list{list-style:none;padding:0;margin:0;display:grid;gap:14px}
+.pillars li,.card,.certs a,.certs p{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px 20px}
+.pillars b{display:block}.pillars li{color:var(--mute)}.pillars b{color:var(--text)}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.card{transition:transform .2s,border-color .2s}.card:hover{transform:translateY(-4px);border-color:var(--gold)}
+.card ul{margin:0;padding-left:1.1em;color:var(--mute)}.card p{color:var(--mute);margin:.3em 0 1em}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}.tags span{font-size:.78rem;border:1px solid var(--gold);border-radius:999px;padding:2px 10px}
+.pimg{aspect-ratio:16/9;border-radius:12px;margin-bottom:14px;background:linear-gradient(135deg,var(--navy),var(--navy2));display:grid;place-items:center;color:var(--gold);font:700 1.6rem "Cormorant Garamond",serif;overflow:hidden}.pimg img{width:100%;height:100%;object-fit:cover}
+.timeline{list-style:none;margin:0;padding:0 0 0 28px;border-left:2px solid var(--gold)}
+.timeline li{position:relative;margin-bottom:30px}.timeline li::before{content:"";position:absolute;left:-37px;top:8px;width:14px;height:14px;border-radius:50%;background:var(--gold)}
+.timeline small{color:var(--gold);font-weight:700}.timeline p{margin:.2em 0;color:var(--mute)}
+.detail{background:var(--soft);border-top:3px solid var(--gold)}.detail .back{margin-bottom:24px}
+.certs{display:grid;gap:12px}.certs a{text-decoration:none}.certs p{color:var(--mute);margin:0}
+.contacts a{color:var(--gold);font-weight:700}
+form{display:grid;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:26px}
+label{display:grid;gap:4px;font-weight:700;font-size:.9rem}
+input,textarea{font:inherit;padding:11px 14px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--text)}
+input[aria-invalid=true],textarea[aria-invalid=true]{border-color:#d64545}.hp{position:absolute;left:-999px}
+#status{margin:0;font-weight:700}#status.err{color:#d64545}#status.ok{color:#2e9e5b}
+footer{background:var(--navy);color:#b8c4d6;padding:28px 0;text-align:center;font-size:.9rem}
+.wa{position:fixed;right:18px;bottom:18px;z-index:40;background:#25d366;color:#08331a;font-weight:700;text-decoration:none;padding:12px 18px;border-radius:999px;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+.hero h1{animation:rise .9s ease both}@keyframes rise{from{opacity:0;transform:translateY(18px)}}
+@media(max-width:860px){.hero-grid,.two{grid-template-columns:1fr}.photo{max-width:300px}.stats{grid-template-columns:1fr 1fr}.burger{display:block}
+#menu{position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;background:var(--bg);border-bottom:1px solid var(--line);display:none}
+#menu.open{display:flex}#menu a{padding:14px 5%}section{padding:64px 0}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+.pimg{background:var(--soft)}.pimg img{object-fit:contain}
+.gal{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-bottom:24px}.gal img{width:100%;border-radius:12px;border:1px solid var(--line)}
+.photo img{object-position:top}
+
+/* ===== ANIMAÇÕES AVANÇADAS ===== */
+html,body{overflow-x:hidden}
+#intro{position:fixed;inset:0;z-index:100;background:#0b1f3a;display:grid;place-items:center;animation:out .7s 1.5s forwards}
+#intro span{font:700 5rem "Cormorant Garamond",serif;color:#c9a24b;animation:zoom 1.4s ease both}
+@keyframes zoom{from{opacity:0;transform:scale(.6);letter-spacing:.6em}60%{opacity:1}to{transform:scale(1);letter-spacing:.1em}}
+@keyframes out{to{opacity:0;visibility:hidden}}
+#bar{position:fixed;top:0;left:0;right:0;height:3px;z-index:60;background:linear-gradient(90deg,#c9a24b,#fff0b8);transform-origin:left;transform:scaleX(var(--s,0))}
+#glow{position:fixed;left:0;top:0;width:400px;height:400px;border-radius:50%;pointer-events:none;z-index:45;background:radial-gradient(circle,rgba(201,162,75,.16),transparent 65%)}
+.nav{transition:padding .3s,box-shadow .3s}.nav.sc{padding-block:6px;box-shadow:0 6px 24px rgba(0,0,0,.18)}
+#menu a{position:relative}#menu a::after{content:"";position:absolute;left:0;right:0;bottom:-4px;height:2px;background:var(--gold);transform:scaleX(0);transition:transform .3s}#menu a:hover::after,#menu a.on::after{transform:scaleX(1)}
+.hero{position:relative;overflow:hidden;background:linear-gradient(120deg,#0b1f3a,#13335c,#0b1f3a,#173f73);background-size:300% 300%;animation:grad 16s ease infinite}
+@keyframes grad{50%{background-position:100% 50%}}
+.hero::before,.hero::after{content:"";position:absolute;border-radius:50%;filter:blur(70px);opacity:.35;animation:orb 14s ease-in-out infinite alternate;pointer-events:none}
+.hero::before{width:420px;height:420px;background:#c9a24b;top:-120px;right:-80px}
+.hero::after{width:520px;height:520px;background:#2f6fd0;bottom:-200px;left:-160px;animation-duration:18s}
+@keyframes orb{to{transform:translate(60px,40px) scale(1.2)}}
+#fx{position:absolute;inset:0;width:100%;height:100%}.hero .wrap{position:relative;z-index:1}
+.hero h1{animation:none}.w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.12em}
+.w span{display:inline-block;transform:translateY(110%);animation:up .9s cubic-bezier(.2,.8,.2,1) forwards;animation-delay:calc(1.7s + var(--i)*.09s)}
+@keyframes up{to{transform:none}}@keyframes fade{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}@keyframes fadeo{from{opacity:0}}
+.hero .kicker,.hero .lead,.roles,.actions,.stats{animation:fade 1s both}
+.kicker{animation-delay:1.6s!important}.lead{animation-delay:2.3s!important}.roles{animation-delay:2.4s!important}.actions{animation-delay:2.5s!important}.stats{animation-delay:2.7s!important}
+.roles{font:600 1.5rem "Cormorant Garamond",serif;color:var(--gold);min-height:2rem;margin:18px 0 0}
+.roles i{display:inline-block;width:2px;height:1.1em;background:var(--gold);margin-left:3px;vertical-align:-.15em;animation:blink 1s steps(2) infinite}@keyframes blink{50%{opacity:0}}
+.photo{transition:transform .25s;animation:fadeo 1s 1.8s both,glow 3.5s 2.8s infinite alternate}
+@keyframes glow{from{box-shadow:0 0 0 rgba(201,162,75,0)}to{box-shadow:0 0 50px rgba(201,162,75,.55)}}
+.photo::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 35%,rgba(255,255,255,.35) 50%,transparent 65%);transform:translateX(-120%);animation:shine 5s 3s infinite}
+@keyframes shine{40%,100%{transform:translateX(120%)}}
+.marquee{overflow:hidden;background:var(--gold);color:#101820;font-weight:700;padding:14px 0;transform:rotate(-1.2deg);margin:-14px -3% 0;position:relative;z-index:2}
+.mq{display:flex;width:max-content;animation:mq 30s linear infinite}.mq:hover{animation-play-state:paused}
+.mq .g{display:flex;gap:36px;padding-right:36px;white-space:nowrap}@keyframes mq{to{transform:translateX(-50%)}}
+.rv{opacity:0;transform:translateY(44px) scale(.97);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1);transition-delay:var(--d,0s)}
+.rv.left{transform:translateX(-60px)}.rv.right{transform:translateX(60px)}.rv.in{opacity:1;transform:none}
+h2{position:relative;padding-bottom:14px}h2::after{content:"";position:absolute;left:0;bottom:0;height:3px;width:0;background:var(--gold);transition:width 1s .3s}h2.on::after{width:80px}
+.card{position:relative;overflow:hidden}.card>*{position:relative}
+.card::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at var(--mx,50%) var(--my,50%),rgba(201,162,75,.2),transparent 55%);opacity:0;transition:opacity .3s;pointer-events:none}.card:hover::before{opacity:1}
+.card li{transition:transform .2s,color .2s}.card li:hover{transform:translateX(6px);color:var(--gold)}
+.pimg img{transition:transform .6s}.card:hover .pimg img{transform:scale(1.07)}
+.timeline{border-left:2px solid var(--line);position:relative}
+.timeline::before{content:"";position:absolute;left:-2px;top:0;bottom:0;width:2px;background:var(--gold);transform-origin:top;transform:scaleY(var(--p,0))}
+.timeline li::before{transform:scale(0);transition:transform .5s .2s}.timeline li.on::before{transform:scale(1);animation:pulse 2.4s 1s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(201,162,75,.6)}100%{box-shadow:0 0 0 14px rgba(201,162,75,0)}}
+.pillars li{transition:transform .25s,border-color .25s}.pillars li:hover{transform:translateX(8px);border-color:var(--gold)}
+.detail:not([hidden]) .wrap{animation:fade .8s both}
+.wa{animation:ring 2.2s infinite}@keyframes ring{0%{box-shadow:0 0 0 0 rgba(37,211,102,.6)}100%{box-shadow:0 0 0 22px rgba(37,211,102,0)}}
+.btn{transition:transform .25s ease,background .25s,color .25s}.btn.ghost:hover{background:var(--gold);color:#101820;border-color:var(--gold)}
+@media(prefers-reduced-motion:reduce){#intro{display:none}.rv,.hero .kicker,.hero .lead,.roles,.actions,.stats,.photo{opacity:1!important;transform:none!important}.w span{transform:none!important}.timeline::before{transform:none}.timeline li::before{transform:none}h2::after{width:80px}}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Patrício Rebelo Baltazar","jobTitle":"Empreendedor, Gestor de Projectos e Programador Web","address":{"@type":"PostalAddress","addressLocality":"Maputo","addressCountry":"MZ"}}</script>
+</head>
+<body>
+<div id="intro" aria-hidden="true"><span>PB</span></div>
+<div id="bar" aria-hidden="true"></div>
+<a class="skip" href="#main">Saltar para o conteúdo</a>
+<header class="nav" id="nav">
+  <a class="logo" href="#inicio" aria-label="Início"><img src="assets/foto-perfil.jpg" alt="Patrício Rebelo Baltazar" width="40" height="40"></a>
+  <nav id="menu" aria-label="Principal">
+    <a href="#sobre">Sobre</a><a href="#competencias">Competências</a><a href="#experiencia">Experiência</a>
+    <a href="#projectos">Projectos</a><a href="#formacao">Formação</a><a href="#servicos">Serviços</a><a href="#contactos">Contactos</a>
+  </nav>
+  <button class="icon-btn" id="theme" aria-label="Alternar modo claro/escuro">◐</button>
+  <button class="icon-btn burger" id="burger" aria-label="Abrir menu" aria-expanded="false">☰</button>
+</header>
+
+<main id="main">
+<section class="hero" id="inicio">
+<canvas id="fx" aria-hidden="true"></canvas>
+  <div class="wrap hero-grid">
+    <div>
+      <p class="kicker">Maputo, Moçambique</p>
+      <h1>Transformando ideias em soluções e oportunidades.</h1>
+      <p class="lead">Sou Patrício Rebelo Baltazar: empreendedor, gestor de projectos, programador web e profissional de tecnologias de informação. Uno negócio, tecnologia e terreno para tirar projectos do papel.</p>
+      <p class="roles" aria-hidden="true"><span id="role"></span><i></i></p>
+      <div class="actions"><a class="btn" href="#projectos">Conhecer o meu trabalho</a><a class="btn ghost" href="#contactos">Entrar em contacto</a></div>
+    </div>
+    <figure class="photo"><img src="assets/foto.jpg" alt="Fotografia de Patrício Rebelo Baltazar" width="420" height="520" onerror="this.remove()"><span>PB</span></figure>
+  </div>
+  <div class="wrap stats" id="stats">
+    <div><b data-count="3">0</b><span>Projectos em destaque</span></div>
+    <div><b data-count="4">0</b><span>Experiências profissionais</span></div>
+    <div><b data-count="14">0</b><span>Competências</span></div>
+    <div><b data-count="4">0</b><span>Formações</span></div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true"><div class="mq" id="mq"></div></div>
+
+<section id="sobre"><div class="wrap two">
+  <div><h2>Sobre mim</h2>
+  <p>Combino a visão de um empreendedor com a disciplina de um gestor de projectos. Trabalho com vendas e atendimento desde cedo, o que me ensinou a ouvir o cliente antes de propor soluções.</p>
+  <p>Na tecnologia, programo websites com HTML, CSS e JavaScript e uso marketing online e inteligência artificial para dar escala a pequenos negócios. A formação como Técnico de Medicina Geral e em Agropecuária deu-me uma visão prática do terreno e do atendimento às pessoas.</p></div>
+  <ul class="pillars">
+    <li><b>Empreendedorismo e negócios</b>Criar, gerir e fazer crescer empresas.</li>
+    <li><b>Tecnologias de informação</b>Ferramentas digitais ao serviço do negócio.</li>
+    <li><b>Gestão de projectos</b>Planeamento, equipas e entrega.</li>
+    <li><b>Desenvolvimento web</b>Websites e plataformas digitais à medida.</li>
+    <li><b>Comunicação e vendas</b>Atendimento e relação com o cliente.</li>
+  </ul>
+</div></section>
+
+<section id="competencias" class="alt"><div class="wrap"><h2>Competências profissionais</h2><div class="grid3" id="skills"></div></div></section>
+<section id="experiencia"><div class="wrap"><h2>Experiência profissional</h2><ol class="timeline" id="timeline"></ol></div></section>
+
+<section id="projectos" class="alt"><div class="wrap"><h2>Projectos em destaque</h2><div class="grid3" id="projects"></div></div></section>
+<section id="projecto" class="detail" hidden><div class="wrap" id="detail"></div></section>
+
+<section id="formacao"><div class="wrap two">
+  <div><h2>Formação académica</h2><ul class="list" id="edu"></ul></div>
+  <div><h2>Certificados</h2><div class="certs" id="certs"></div></div>
+</div></section>
+
+<section id="servicos" class="alt"><div class="wrap"><h2>Serviços profissionais</h2><div class="grid3" id="services"></div></div></section>
+
+<section id="contactos"><div class="wrap two">
+  <div><h2>Vamos conversar</h2><p>Para parcerias, propostas ou oportunidades, escreva-me. Respondo o mais depressa possível.</p>
+  <ul class="list contacts"><li><a data-c="whatsapp" target="_blank" rel="noopener">WhatsApp</a></li><li><a data-c="email">E-mail</a></li><li><a data-c="linkedin" target="_blank" rel="noopener">LinkedIn</a></li><li><a data-c="facebook" target="_blank" rel="noopener">Facebook</a></li><li>Maputo, Moçambique</li></ul>
+  <a class="btn ghost" href="cv/Patricio-Baltazar-CV.pdf" download>Descarregar CV (PDF)</a></div>
+  <form id="form" novalidate>
+    <label>Nome<input name="nome" required autocomplete="name"></label>
+    <label>E-mail<input name="email" type="email" required autocomplete="email"></label>
+    <label>Assunto<input name="assunto" required></label>
+    <label>Mensagem<textarea name="mensagem" rows="5" required></textarea></label>
+    <input name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <button class="btn" type="submit">Enviar mensagem</button>
+    <p id="status" role="status"></p>
+  </form>
+</div></section>
+</main>
+
+<footer><div class="wrap">© <span id="year"></span> Patrício Rebelo Baltazar. Todos os direitos reservados.</div></footer>
+<a class="wa" data-c="whatsapp" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">WhatsApp</a>
+<script>
+'use strict';
+/* ====== CONTEÚDO EDITÁVEL: altere apenas este bloco ====== */
+const CONFIG = {
+  whatsapp: '258843996923',
+  email: 'patriciorebelobaltazar@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/patriciorebelobaltazar-45bb031a3/',
+  facebook: 'https://web.facebook.com/profile.php?id=61587842172965',
+  formEndpoint: ''                        // ex.: https://formspree.io/f/xxxx (vazio = abre o e-mail)
+};
+const SKILLS = {
+  'Tecnologia': ['Desenvolvimento web (HTML, CSS e JavaScript)','Microsoft Word, Excel e PowerPoint','Inteligência Artificial','Marketing digital, Meta Business e tráfego pago','Google AdSense','Edição de foto e vídeo (Canva, CapCut, Filmora, OBS Studio)','Assistência técnica de computadores e telefones','Gestão de projectos digitais e métodos Agile'],
+  'Gestão e empreendedorismo': ['Gestão de negócios','Planeamento estratégico','Gestão de equipas','Logística e operações','Marketing e vendas','Negociação, B2B, B2C e CRM'],
+  'Outras competências': ['Técnico de Medicina Geral','Técnicas de agropecuária','Comunicação e atendimento ao cliente','Português e Emakhuwa (excelente)','Inglês e Xichangana (razoável)']
+};
+const EXPERIENCE = [ // acrescente novos itens no início da lista
+  {org:'Intercampus (Pesquisa)',role:'Inquiridor telefónico do projecto eVoucher da FAO, financiado pelo Banco Mundial',period:'Jul – Ago 2026'},
+  {org:'Sanlam',role:'Promotor de vendas de seguros de vida',period:'Fev – Abr 2026'},
+  {org:'Vendas online',role:'Estratégia de tráfego pago para atrair e converter clientes',period:'2026'},
+  {org:'Empório Global',role:'Criação e gestão do negócio, em validação com resultados positivos',period:'2025'},
+  {org:'Hospital Provincial de Pemba',role:'Estágio integral: emergências e trauma, gestão e administração, deontologia e software OpenMRS',period:'2024'},
+  {org:'Movitel',role:'Digitador e registador de entrada e saída de produtos móveis, em Nampula',period:'Mar – Jul 2020'},
+  {org:'In3 Business',role:'Vendas e apresentação de soluções de gestão empresarial',period:''}
+];
+const PROJECTS = [
+  {id:'emporio',name:'Empório Global',img:'assets/emporio-logo.jpg',short:'Comércio de acessórios tecnológicos, vestuário e produtos diversos.',
+   long:'Negócio criado em 2025, com a assinatura «Olha o swag e atitude». Vende acessórios tecnológicos, vestuário e produtos diversos, com divulgação online e atendimento directo ao cliente.',
+   gallery:['assets/emporio-logo.jpg'],tech:['Gestão de negócios','Meta Business','Tráfego pago','Vendas online'],
+   results:['Projecto em validação com resultados positivos','Vendas online com tráfego pago','Marca própria com identidade visual definida']},
+  {id:'assessoria',name:'Assessoria Académica',img:'assets/curso-monografias.jpg',short:'Elaboração de trabalhos académicos e curso de metodologia de monografias.',
+   long:'Serviço de apoio a estudantes, do ensino básico ao universitário: pré-projecto, TCC, monografia, dissertação e slides. Inclui formatação ABNT e APA, revisão ortográfica e gramatical, ordenação de ideias, sugestões metodológicas e entrega em Word e PDF. Há também o curso online «Metodologia Completa para Elaboração de Monografias».',
+   gallery:['assets/assessoria-flyer.jpg','assets/curso-monografias.jpg'],tech:['Normas ABNT e APA','Microsoft Word','Metodologia científica','Formação online'],
+   results:['Apoio do nível básico ao universitário','Entrega em formato Word e PDF','Curso online 100% prático, com videoaulas e materiais editáveis']},
+  {id:'primeiros-socorros',name:'Curso de Primeiros Socorros e Clínica Geral',img:'assets/curso-primeiros-socorros.jpg',short:'Curso online com certificado, baseado na formação em Medicina Geral.',
+   long:'Curso online para quem quer aprender primeiros socorros e noções de clínica geral: cuidados básicos de enfermagem, avaliação de sinais vitais, tratamento de feridas e queimaduras, reconhecimento de emergências e noções básicas de farmácia.',
+   gallery:['assets/curso-primeiros-socorros.jpg'],tech:['Medicina Geral','Formação online','WhatsApp'],
+   results:['Conteúdo prático em 6 temas','Certificado de conclusão','Inscrições abertas pelo WhatsApp']}
+];
+const EDU = ['Técnico de Medicina Geral, Instituto Politécnico Boa Esperança de Nampula (2025, classificação 14,0)','Informática Técnico Profissional, Centro de Desenvolvimento Sustentável do Semiárido / Young Mozambique (45 h, 2017–2018)','Técnico em Agropecuária, Escola Profissional de Ocua (2014–2016)','12.ª classe, Escola Secundária de Balama (2019)'];
+const CERTS = [
+  {title:'Diploma de Técnico de Medicina Geral',issuer:'IPOBEN, Nampula, 2025',file:'assets/certificados/diploma-medicina-geral.pdf'},
+  {title:'Informática Técnico Profissional',issuer:'Informação e Cidadania Digital, 45 h',file:'assets/certificados/informatica-tecnico-profissional.pdf'},
+  {title:'Técnico em Agropecuária',issuer:'Escola Profissional de Ocua, 2016',file:'assets/certificados/agropecuaria-ocua.pdf'},
+  {title:'Gestão de Projectos e Fundamentos de Agile',issuer:'Curso online, 8 h, Abril de 2025',file:'assets/certificados/gestao-projectos-agile.pdf'},
+  {title:'Storytelling para marketing digital',issuer:'University of Chicago (curso online)'},
+  {title:'Gestão de Pequenos Negócios',issuer:'Instituto A Visão Juvenil, Maputo, 2026'},
+  {title:'Técnico de vendas de seguros de vida',issuer:'Sanlam, Maputo, 2026'},
+  {title:'Inquiridor telefónico, projecto eVoucher (FAO)',issuer:'Intercampus, Maputo, 2026'}
+];
+const SERVICES = [
+  ['Criação de websites','Sites, portfólios e páginas de venda em HTML, CSS e JavaScript.'],
+  ['Consultoria e gestão de pequenos negócios','Diagnóstico, organização e crescimento do seu negócio.'],
+  ['Marketing digital','Presença online, tráfego pago e redes sociais.'],
+  ['Gestão de projectos','Planeamento, execução e acompanhamento.'],
+  ['Apoio tecnológico','Ferramentas digitais, Office, inteligência artificial e assistência técnica.'],
+  ['Estratégias comerciais e vendas','Abordagem, apresentação e fecho de vendas.'],
+  ['Assessoria académica','Trabalhos académicos, formatação ABNT e APA, revisão e slides.'],
+  ['Formação e capacitação','Cursos online e sessões práticas para equipas e indivíduos.']
+];
+/* ====== FIM DO BLOCO EDITÁVEL ====== */
+
+const $ = (s, r = document) => r.querySelector(s);
+const esc = t => String(t).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const tags = a => `<div class="tags">${a.map(t => `<span>${esc(t)}</span>`).join('')}</div>`;
+const pimg = p => `<div class="pimg">${p.img ? `<img src="${esc(p.img)}" alt="${esc(p.name)}" loading="lazy">` : esc(p.name)}</div>`;
+
+$('#skills').innerHTML = Object.entries(SKILLS).map(([k, v]) => `<article class="card"><h3>${esc(k)}</h3><ul>${v.map(i => `<li>${esc(i)}</li>`).join('')}</ul></article>`).join('');
+$('#timeline').innerHTML = EXPERIENCE.map(e => `<li>${e.period ? `<small>${esc(e.period)}</small>` : ''}<h3>${esc(e.org)}</h3><p>${esc(e.role)}</p></li>`).join('');
+$('#projects').innerHTML = PROJECTS.map(p => `<article class="card">${pimg(p)}<h3>${esc(p.name)}</h3><p>${esc(p.short)}</p>${tags(p.tech)}<a class="btn ghost" href="#projecto-${p.id}">Ver projecto</a></article>`).join('');
+$('#edu').innerHTML = EDU.map(e => `<li class="card">${esc(e)}</li>`).join('');
+$('#certs').innerHTML = CERTS.length ? CERTS.map(c => `<a href="${esc(c.file)}" target="_blank" rel="noopener"><b>${esc(c.title)}</b><br>${esc(c.issuer)}</a>`).join('') : '<p>Os certificados e formações complementares serão adicionados aqui.</p>';
+$('#services').innerHTML = SERVICES.map(s => `<article class="card"><h3>${esc(s[0])}</h3><p>${esc(s[1])}</p></article>`).join('');
+$('#year').textContent = new Date().getFullYear();
+
+/* Contactos */
+const links = {whatsapp:`https://wa.me/${CONFIG.whatsapp}`, email:`mailto:${CONFIG.email}`, linkedin:CONFIG.linkedin, facebook:CONFIG.facebook};
+document.querySelectorAll('[data-c]').forEach(a => a.href = links[a.dataset.c]);
+
+/* Página individual do projecto (#projecto-id) */
+const det = $('#projecto');
+function route() {
+  const p = PROJECTS.find(x => location.hash === '#projecto-' + x.id);
+  det.hidden = !p;
+  if (!p) return;
+  $('#detail').innerHTML = `<a class="btn ghost back" href="#projectos">Voltar aos projectos</a><h2>${esc(p.name)}</h2>${pimg(p)}<div class="gal">${(p.gallery||[]).map(g=>`<img src="${esc(g)}" alt="${esc(p.name)}" loading="lazy">`).join('')}</div><p class="lead" style="color:var(--mute)">${esc(p.long)}</p><h3>Tecnologias e áreas</h3>${tags(p.tech)}<h3>Resultados</h3><ul>${p.results.map(r => `<li>${esc(r)}</li>`).join('')}</ul><a class="btn" href="#contactos">Falar sobre este projecto</a>`;
+  det.scrollIntoView();
+}
+addEventListener('hashchange', route); route();
+
+/* Menu móvel e tema */
+const menu = $('#menu'), burger = $('#burger');
+burger.onclick = () => burger.setAttribute('aria-expanded', menu.classList.toggle('open'));
+menu.onclick = () => { menu.classList.remove('open'); burger.setAttribute('aria-expanded', 'false'); };
+const root = document.documentElement;
+let saved = null; try { saved = localStorage.getItem('tema'); } catch (e) {}
+root.dataset.theme = saved || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+$('#theme').onclick = () => { root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark'; try { localStorage.setItem('tema', root.dataset.theme); } catch (e) {} };
+
+/* Contadores */
+const nums=[PROJECTS.length,EXPERIENCE.length,Object.values(SKILLS).flat().length,EDU.length+CERTS.length];
+document.querySelectorAll('[data-count]').forEach((b,i)=>b.dataset.count=nums[i]);
+const io = new IntersectionObserver(es => es.forEach(e => {
+  if (!e.isIntersecting) return; io.unobserve(e.target);
+  const n = +e.target.dataset.count; let i = 0;
+  setTimeout(() => { const t = setInterval(() => { i++; e.target.textContent = i; if (i >= n) clearInterval(t); }, 900 / n); }, e.target.closest('.hero') ? 2800 : 0);
+}));
+document.querySelectorAll('[data-count]').forEach(b => io.observe(b));
+
+/* Formulário */
+const form = $('#form'), st = $('#status');
+form.addEventListener('submit', async ev => {
+  ev.preventDefault(); st.className = '';
+  if (form.website.value) return; // anti-spam
+  let ok = true;
+  form.querySelectorAll('[required]').forEach(f => { const v = f.checkValidity() && f.value.trim(); f.setAttribute('aria-invalid', !v); if (!v) ok = false; });
+  if (!ok) { st.className = 'err'; st.textContent = 'Preencha todos os campos com um e-mail válido.'; return; }
+  const d = Object.fromEntries(new FormData(form)); delete d.website;
+  if (!CONFIG.formEndpoint) {
+    location.href = `mailto:${CONFIG.email}?subject=${encodeURIComponent(d.assunto)}&body=${encodeURIComponent(d.mensagem + '\n\n' + d.nome + ' (' + d.email + ')')}`;
+    st.className = 'ok'; st.textContent = 'A abrir a sua aplicação de e-mail.'; return;
+  }
+  try {
+    const r = await fetch(CONFIG.formEndpoint, {method:'POST', headers:{'Content-Type':'application/json', Accept:'application/json'}, body:JSON.stringify(d)});
+    if (!r.ok) throw 0;
+    form.reset(); st.className = 'ok'; st.textContent = 'Mensagem enviada. Obrigado pelo contacto.';
+  } catch (e) { st.className = 'err'; st.textContent = 'Não foi possível enviar. Tente novamente ou use o WhatsApp.'; }
+});
+
+/* ===== ANIMAÇÕES AVANÇADAS ===== */
+(function(){
+const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const fine = matchMedia('(hover:hover) and (pointer:fine)').matches;
+const bar = $('#bar'), tl = $('.timeline'), nav = $('#nav');
+function onScroll(){const s=scrollY,h=document.documentElement.scrollHeight-innerHeight;bar.style.setProperty('--s',h>0?s/h:0);nav.classList.toggle('sc',s>40);const b=tl.getBoundingClientRect();tl.style.setProperty('--p',Math.min(1,Math.max(0,(innerHeight*.7-b.top)/b.height)))}
+addEventListener('scroll',onScroll,{passive:true});onScroll();
+/* Menu activo */
+const links=[...document.querySelectorAll('#menu a')];
+const so=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-45% 0px -50% 0px'});
+document.querySelectorAll('main section[id]').forEach(s=>so.observe(s));
+/* Marquee */
+const mqi=['Empreendedorismo','Programação Web','Gestão de Projectos','Marketing Digital','Tecnologias de Informação','Vendas','Medicina Geral','Agropecuária'];
+const g='<span class="g">'+mqi.map(x=>'<span>'+x+'</span><span>✦</span>').join('')+'</span>';
+$('#mq').innerHTML=g+g;
+/* Texto do título e máquina de escrever */
+const h1=$('.hero h1');
+h1.innerHTML=h1.textContent.trim().split(' ').map((w,i)=>`<span class="w"><span style="--i:${i}">${w}</span></span>`).join(' ');
+const roles=['Empreendedor','Gestor de projectos','Programador web','Profissional de TI','Técnico de Medicina Geral'],rel=$('#role');
+if(RM){rel.textContent=roles[0]+' · '+roles[2]}else{let ri=0,ci=0,del=false;(function tick(){const w=roles[ri];ci+=del?-1:1;rel.textContent=w.slice(0,ci);let t=del?35:80;if(!del&&ci===w.length){del=true;t=1400}else if(del&&ci===0){del=false;ri=(ri+1)%roles.length;t=300}setTimeout(tick,t)})()}
+if(RM)return;
+/* Revelar ao rolar */
+const io2=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;io2.unobserve(e.target);const el=e.target;el.classList.add('in','on');const d=parseFloat(el.style.getPropertyValue('--d'))||0;setTimeout(()=>el.classList.remove('rv','in'),1200+d*1000)}),{threshold:.12});
+function mark(el,i,cls){el.classList.add('rv');if(cls)el.classList.add(cls);el.style.setProperty('--d',(i%6)*.1+'s');io2.observe(el)}
+document.querySelectorAll('.grid3,.pillars,.certs,.list,.timeline').forEach(c=>[...c.children].forEach((el,i)=>mark(el,i,c.classList.contains('timeline')?'left':'')));
+document.querySelectorAll('section h2').forEach(el=>mark(el,0));
+['#sobre .two>div:first-child','#contactos .two>div:first-child','#formacao .two>div:first-child'].forEach(s=>mark($(s),0,'left'));
+mark($('form'),1,'right');mark($('#formacao .two>div:last-child'),1,'right');
+/* Partículas no hero */
+const cv=$('#fx'),hero=$('#inicio'),cx=cv.getContext('2d');let W,H,P=[],run=true,on=true,m={x:-999,y:-999};
+function size(){W=cv.width=hero.offsetWidth;H=cv.height=hero.offsetHeight;P=Array.from({length:Math.min(70,Math.floor(W/18))},()=>({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.5,vy:(Math.random()-.5)*.5,r:Math.random()*1.6+.6}))}
+size();addEventListener('resize',size);
+hero.addEventListener('mousemove',e=>{const b=hero.getBoundingClientRect();m.x=e.clientX-b.left;m.y=e.clientY-b.top});hero.addEventListener('mouseleave',()=>m.x=-999);
+new IntersectionObserver(e=>{run=e[0].isIntersecting;if(run&&!on){on=true;loop()}}).observe(hero);
+function loop(){if(!run){on=false;return}cx.clearRect(0,0,W,H);
+for(const p of P){p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>H)p.vy*=-1;const dx=p.x-m.x,dy=p.y-m.y,d=Math.hypot(dx,dy)||1;if(d<140){p.x+=dx/d*1.6;p.y+=dy/d*1.6}cx.beginPath();cx.arc(p.x,p.y,p.r,0,6.283);cx.fillStyle='rgba(201,162,75,.9)';cx.fill()}
+for(let i=0;i<P.length;i++)for(let j=i+1;j<P.length;j++){const a=P[i],b=P[j],d=Math.hypot(a.x-b.x,a.y-b.y);if(d<120){cx.strokeStyle='rgba(201,162,75,'+(1-d/120)*.35+')';cx.beginPath();cx.moveTo(a.x,a.y);cx.lineTo(b.x,b.y);cx.stroke()}}
+requestAnimationFrame(loop)}
+loop();
+if(!fine)return;
+/* Cursor luminoso, inclinação 3D e botões magnéticos */
+const gl=document.createElement('div');gl.id='glow';document.body.appendChild(gl);
+let gx=0,gy=0,tx=0,ty=0,lt=null,mb=null;
+(function f(){gx+=(tx-gx)*.12;gy+=(ty-gy)*.12;gl.style.transform=`translate(${gx-200}px,${gy-200}px)`;requestAnimationFrame(f)})();
+document.addEventListener('mousemove',e=>{tx=e.clientX;ty=e.clientY;
+const t=e.target.closest&&e.target.closest('.card,.photo');if(lt&&lt!==t)lt.style.transform='';lt=t;
+if(t){const b=t.getBoundingClientRect(),px=(e.clientX-b.left)/b.width,py=(e.clientY-b.top)/b.height,mx=t.classList.contains('photo')?12:7;t.style.transform=`perspective(800px) rotateX(${(.5-py)*mx}deg) rotateY(${(px-.5)*mx}deg) translateY(-4px)`;t.style.setProperty('--mx',px*100+'%');t.style.setProperty('--my',py*100+'%')}
+const bt=e.target.closest&&e.target.closest('.btn');if(mb&&mb!==bt)mb.style.transform='';mb=bt;
+if(bt){const r=bt.getBoundingClientRect();bt.style.transform=`translate(${(e.clientX-r.left-r.width/2)*.25}px,${(e.clientY-r.top-r.height/2)*.35}px)`}});
+document.addEventListener('mouseleave',()=>{if(lt)lt.style.transform='';if(mb)mb.style.transform=''});
+})();
+</script>
+</body>
+</html>
